@@ -1,4 +1,4 @@
-var http = require('http'); // Web Server
+const http = require('http'); // Web Server
 
 http.createServer(function (req, res) {
 
