@@ -1,5 +1,5 @@
 const http = require('http');
-const modulopropio = require('./modulo_propio_crear'); // OJO a "./", indicar correctamente el directorio
+const modulopropio = require('./modulo_propio_crear'); // ¡OJO! a "./", indicar correctamente el directorio, no es como los modulos estandar
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
